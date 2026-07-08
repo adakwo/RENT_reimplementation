@@ -12,6 +12,11 @@ Main differences from the [original RENT library](https://github.com/NMBU-Data-S
 - scikit-learn==1.6.1
 - scipy==1.15.2
 
+# Usage
+Add `rent.py`, `pct_resample`, and `rent_selection_criteria.py` to your project. 
+
+The `rent.py` file provides the `RENTFeatureSelection` object for import, which also requires functions from `pct_resample.py` and `rent_selection_criteria.py` for default arguments.
+
 # Reference
 Jenul et al., (2021). RENT: A Python Package for Repeated Elastic Net 
 Feature Selection. Journal of Open Source Software, 6(63), 3323, https://doi.org/10.21105/joss.03323
